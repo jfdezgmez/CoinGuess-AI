@@ -22,7 +22,7 @@ Extra:
 		-Se han ordenado los jugadores acorde a sus estadisticas, y luego respecto a ID.
 
 
-Explicaci—n de la inteligencia:
+Explicacion de la inteligencia:
 
 El agente inteligente implementa una inteligencia basada en Q-learning.
 Se han diferenciado los distintos estados posibles empleando el par de valores (Monedas escondidas, Numero de jugadores en esa ronda * numero max de monedas(=3)).
@@ -47,7 +47,7 @@ El Epsilon nos sirve para determinar cuantas veces se juega aleatoriamente para 
 Comentarios respecto al algoritmo: 
 
 Se ha valorado la inclusion de un vector de acciones tambien para el numero de fichas que esconde el agente, descartando esto por dar malos resultados frente a agentes inteligentes, ya que tenia un comportamiento similar a los fixed agent en caso de que una eleccion le hubiese dado buenos resultados repetidas veces.
-Tambien se ha probado con la inclusion de una recompensa(reward en el codigo) proporcional a la distancia entre mi apuesta y la suma de todas las fichas escondidas por los jugadores(la apuesta correcta), sin embargo despues de multiples pruebas, los resultados obtenidos promediaban un orden mas alto de derrotas, as’ bien, en un numero largo de partidas obten’an resultados similares.
+Tambien se ha probado con la inclusion de una recompensa(reward en el codigo) proporcional a la distancia entre mi apuesta y la suma de todas las fichas escondidas por los jugadores(la apuesta correcta), sin embargo despues de multiples pruebas, los resultados obtenidos promediaban un orden mas alto de derrotas, asi bien, en un numero largo de partidas obtenian resultados similares.
 
 
 

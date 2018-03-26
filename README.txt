@@ -1,3 +1,6 @@
+
+20/01/2018 @jfdezgmez
+
 You must include jade.jar to run this agents.
 
 - Para compilar:
